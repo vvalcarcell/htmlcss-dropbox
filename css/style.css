@@ -168,17 +168,44 @@ input[type="radio"] {
 }
 
 .details-2 {
-    font-size: 13px;
+    width: 200px;
+    height: 70px;
+    font-size: 15px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.774);
-    margin-bottom: 5px;
+    padding-top: 8px;
+    float: left;
 }
 
 .chess {
-    font-size: 30px;
+    width: 29px;
+    height: 70px;
+    float: left;
+    font-size: 25px;
     padding-right: 5px;
+}
+
+.column button {
+    margin-top: 50px;
+}
+
+.alternative, .details-3 {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.774);
+    margin: 20px 0;
 }
 
 .check::before {
     content: "\2713";
+    color: rgb(0,97,255);
+    padding-right: 5px;
+}
+
+.check, .details-3 h2 {
+    padding: 10px 0;
+}
+
+.details-3 h2 {
+    font-size: 20px;
 }

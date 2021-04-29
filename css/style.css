@@ -21,8 +21,13 @@
     float: right;
 }
 
-.container {
+.container-1 {
     width: 1200px;
+    margin: 0 auto;
+}
+
+.container-2 {
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -60,4 +65,16 @@ header .info {
 #jumbo {
     width: 80%;
     margin-bottom: -80px;
+}
+
+main {
+    padding: 150px 0;
+}
+
+.column {
+    width: calc(1000px / 3 - 50px);
+    float: left;
+    margin-right: 50px;
+    height: 500px;
+    border: 2px solid black;
 }

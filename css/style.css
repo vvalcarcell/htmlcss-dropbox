@@ -132,22 +132,51 @@ input[type="radio"] {
     float: left;
     margin-right: 50px;
     margin-top: 30px;
-    height: 500px;
     border: 2px solid black;
 }
 
 .type {
     text-align: center;
     border: 1px solid lightgrey;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.815);
     height: 3em;
     line-height: 3em;
 }
 
+.type::before {
+    content: "\2603";
+    margin-right: 8px;
+    font-size: 28px;
+}
+
+.column .plan {
+    padding: 25px;
+}
+
+.column .price {
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+.details {
+    font-size: 15px;
+    color: lightslategray;
+    margin-bottom: 50px;
+}
+
 .details-2 {
-    line-height: 50px;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.774);
+    margin-bottom: 5px;
+}
+
+.chess {
+    font-size: 30px;
+    padding-right: 5px;
 }
 
 .check::before {

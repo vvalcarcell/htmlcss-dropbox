@@ -65,9 +65,6 @@ p {
     margin-bottom: 20px;
 }
 
-a {
-    text-decoration: none;
-}
 
 /*END COMMON RULES*/
 
@@ -95,6 +92,7 @@ nav li {
 nav a {
     color: rgba(0, 0, 0, 0.849);
     font-weight: bold;
+    text-decoration: none;
 }
 
 .navbar button {
@@ -420,6 +418,7 @@ footer section {
 footer a {
     color: white;
     font-size: 12px;
+    text-decoration: none;
 }
 
 footer li {

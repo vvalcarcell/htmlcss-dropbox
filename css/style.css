@@ -272,6 +272,14 @@ hr {
     width: 100%;
 }
 
+.box {
+    width: calc(100% / 3);
+    float: left;
+    height: 506.39px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
 
 
 

@@ -272,12 +272,19 @@ hr {
     width: 100%;
 }
 
-.box {
+.box-1 {
     width: calc(100% / 3);
     float: left;
     height: 506.39px;
     border: 1px solid black;
     margin-bottom: 50px;
+}
+
+.box-2 {
+    width: 50%;
+    height: 50%;
+    float: left;
+    border: 1px solid black;
 }
 
 

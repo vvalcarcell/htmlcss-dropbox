@@ -246,4 +246,35 @@ hr {
     font-size: 20px;
 }
 
+.Partner {
+    margin: 100px 0;
+}
+
+
+.Partner img {
+    width: 50%;
+}
+
+.Partner .text {
+    width: 50%;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+
+.operation {
+    width: calc(1000px / 3);
+    float: left;
+    border: 1px solid black;
+    height: 600px;
+}
+
+.operation img {
+    width: 100%;
+}
+
+
+
+
+
+
 

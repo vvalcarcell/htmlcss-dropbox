@@ -392,8 +392,8 @@ aside button {
 }
 
 .FAQ li {
-    height: 60px;
-    line-height: 60px;
+    height: 70px;
+    line-height: 70px;
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
 }
@@ -401,7 +401,7 @@ aside button {
 .FAQ li::after {
     content: "\2228";
     margin-left: 160px;
-    color: rgba(37, 22, 22, 0.918);
+    color: rgba(37, 22, 22, 0.651);
     font-weight: bold;
 }
 

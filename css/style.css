@@ -65,6 +65,10 @@ p {
     margin-bottom: 20px;
 }
 
+.column, .Enterprise {
+    border: 1px solid lightgray;
+}
+
 
 /*END COMMON RULES*/
 
@@ -146,7 +150,7 @@ input[type="radio"] {
     vertical-align: middle;
 }
 
-.radio {
+.radio-text {
     font-size: 15px;
     margin-right: 20px;
 }
@@ -155,21 +159,23 @@ input[type="radio"] {
     width: calc(1000px / 3 - 16.7px);
     float: left;
     margin-top: 30px;
-    border: 1px solid lightgrey;
 }
 
-.center {
+.column.center {
     margin: 30px 25px;
 }
 
 .type {
     text-align: center;
     border-bottom: 1px solid lightgrey;
-    font-size: 18px;
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.815);
     height: 3em;
     line-height: 3em;
+    color: rgba(0, 0, 0, 0.815);
+}
+
+.type, .price {
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .type::before {
@@ -178,13 +184,11 @@ input[type="radio"] {
     font-size: 28px;
 }
 
-.column .plan {
+.plan {
     padding: 25px 25px 0;
 }
 
-.column .price {
-    font-size: 18px;
-    font-weight: bolder;
+.price {
     margin: 10px 0;
 }
 
@@ -197,11 +201,14 @@ main .details {
 .details-2 {
     width: 230px;
     height: 70px;
+    padding-top: 8px;
+    float: left;
+}
+
+.details-2, .details-3, .alternative {
     font-size: 15px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.774);
-    padding-top: 8px;
-    float: left;
 }
 
 .chess {
@@ -217,9 +224,6 @@ main .details {
 }
 
 .alternative, .details-3 {
-    font-size: 15px;
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.774);
     margin: 20px 0;
 }
 
@@ -237,10 +241,6 @@ hr {
     width: 20%;
     border-color: lightgrey;
     margin: 30px 0;
-}
-
-.Enterprise {
-    border: 1px solid lightgray;
 }
 
 .Enterprise .text {
@@ -365,7 +365,7 @@ hr {
 
 .Clients aside {
     background-color: rgb(180,208,231);
-    padding: 80px;
+    padding: 120px 80px;
     margin-bottom: 150px;
 }
 

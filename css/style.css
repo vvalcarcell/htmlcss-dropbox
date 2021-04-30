@@ -65,6 +65,10 @@ p {
     margin-bottom: 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*END COMMON RULES*/
 
 header {
@@ -89,7 +93,6 @@ nav li {
 }
 
 nav a {
-    text-decoration: none;
     color: rgba(0, 0, 0, 0.849);
     font-weight: bold;
 }
@@ -365,6 +368,7 @@ hr {
 .Clients aside {
     background-color: rgb(180,208,231);
     padding: 80px;
+    margin-bottom: 150px;
 }
 
 aside .info {
@@ -386,6 +390,66 @@ aside button {
     margin-left: 100px;
     margin-top: 15px;
 }
+
+.FAQ li {
+    height: 60px;
+    line-height: 60px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.FAQ li::after {
+    content: "\2228";
+    margin-left: 160px;
+    color: rgba(37, 22, 22, 0.918);
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(0,0,0);
+    color: white;
+    margin-top: 100px;
+    padding: 90px 0;
+}
+
+footer section {
+    width: calc(1000px / 5);
+    margin-bottom: 30px;
+}
+
+footer a {
+    color: white;
+    font-size: 12px;
+}
+
+footer li {
+    margin-top: 10px;
+}
+
+footer hr {
+    border-color: white;
+    margin: 30px 0;
+    width: 10%;
+}
+
+#ita {
+    height: 15px;
+    vertical-align: middle;
+}
+
+.ita {
+    font-size: 15px;
+    font-weight: bold;
+    color: grey;
+}
+
+.ita::after {
+    content: "\2228";
+    margin-left: 3px;
+    font-size: 12px;
+}
+
+
 
 
 

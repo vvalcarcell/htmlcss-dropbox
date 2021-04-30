@@ -95,6 +95,7 @@ header p {
 header .details {
     font-size: 12px;
     font-weight: bold;
+    color: black;
     margin-top: 8px;
     margin-bottom: 30px;
 }
@@ -128,16 +129,19 @@ input[type="radio"] {
 }
 
 .column {
-    width: calc(1000px / 3 - 50px);
+    width: calc(1000px / 3 - 16.7px);
     float: left;
-    margin-right: 50px;
     margin-top: 30px;
-    border: 2px solid black;
+    border: 1px solid lightgrey;
+}
+
+.center {
+    margin: 30px 25px;
 }
 
 .type {
     text-align: center;
-    border: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
     font-size: 18px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.815);
@@ -152,7 +156,7 @@ input[type="radio"] {
 }
 
 .column .plan {
-    padding: 25px;
+    padding: 25px 25px 0;
 }
 
 .column .price {
@@ -161,14 +165,14 @@ input[type="radio"] {
     margin: 10px 0;
 }
 
-.details {
+main .details {
     font-size: 15px;
     color: lightslategray;
     margin-bottom: 50px;
 }
 
 .details-2 {
-    width: 200px;
+    width: 230px;
     height: 70px;
     font-size: 15px;
     font-weight: bold;
@@ -178,7 +182,7 @@ input[type="radio"] {
 }
 
 .chess {
-    width: 29px;
+    width: 30px;
     height: 70px;
     float: left;
     font-size: 25px;
@@ -202,10 +206,44 @@ input[type="radio"] {
     padding-right: 5px;
 }
 
-.check, .details-3 h2 {
+.check{
     padding: 10px 0;
 }
 
 .details-3 h2 {
     font-size: 20px;
+    color: rgba(0, 0, 0, 0.945);
+    margin-bottom: 20px;
 }
+
+hr {
+    width: 20%;
+    border-color: lightgrey;
+    margin: 30px 0;
+}
+
+.Enterprise {
+    border: 1px solid lightgray;
+}
+
+.Enterprise .text {
+    width: 65%;
+    padding: 25px;
+}
+
+.Enterprise .contact {
+    width: 35%;
+    padding: 25px;
+}
+
+.Enterprise h2 {
+    margin-bottom: 20px;
+}
+
+.Enterprise button {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+}
+
+

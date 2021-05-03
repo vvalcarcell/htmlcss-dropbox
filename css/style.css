@@ -395,6 +395,9 @@ aside button {
     height: 70px;
     line-height: 70px;
     border-top: 1px solid lightgray;
+}
+
+.FAQ li:last-child {
     border-bottom: 1px solid lightgray;
 }
 
